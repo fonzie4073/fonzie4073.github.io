@@ -6,8 +6,8 @@ body {
 
 /* 头部样式 */
 .header {
-  background-image:url('头部背景.png');
-  padding: 20px;
+  background-color:#B0F6FF;
+  padding: 0px;
   text-align: center;
 }
 </style>
