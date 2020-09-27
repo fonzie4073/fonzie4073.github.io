@@ -1,13 +1,13 @@
-p {
- color: red;
+
+<style>
+body {
+  margin: 0;
 }
 
-#style2 {
- font-size: 30px;
+/* 头部样式 */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
 }
-
-.style3 {
- background-color: blue;
-}
-
-
+</style>
