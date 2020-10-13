@@ -1,5 +1,4 @@
 
-<style>
 body {
   margin: 0;
 }
@@ -26,6 +25,11 @@ body {
   padding: 14px 16px;
   text-decoration: none;
 }
+
+/* 简历导航 */
+#jianli_navigation {
+  width: 4em;
+}
  
 /* 链接 - 修改颜色 */
 .topnav a:hover {
@@ -51,4 +55,3 @@ body {
   text-shadow:2px 2px #FF0000;
   font-size:70%;
 }
-</style>
