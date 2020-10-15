@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+.flip-container {
+	        perspective: 1000;
+	     -o-perspective: 1000;  
+	    -ms-perspective: 1000; 	
+	   -moz-perspective: 1000;	
+	-webkit-perspective: 1000;  
+}
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	        transform: rotateX(180deg);
+	     -o-transform: rotateX(180deg); 
+	    -ms-transform: rotateX(180deg); 
+	   -moz-transform: rotateX(180deg);	
+	-webkit-transform: rotateX(180deg);	
+}
+.flip-container, .front, .back {
+	width: 480px;
+	height: 320px;
+}
+
+.flipper {
+	        transition: 1s;
+	     -o-transition: 1s; 
+	    -ms-transition: 1s; 
+	   -moz-transition: 1s; 
+	-webkit-transition: 1s; 
+	transform-style: preserve-3d;
+	position: relative;
+	height: 320px;
+}
+
+.front, .back {
+	       backface-visibility: hidden;
+	     -o-backface-visibility:hidden; 
+	    -ms-backface-visibility:hidden; 
+	   -moz-backface-visibility:hidden; 
+	-webkit-backface-visibility:hidden;	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	z-index: 2;
+}
+
+.back {
+	        transform: rotateX(180deg);
+	     -o-transform: rotateX(180deg); 
+	    -ms-transform: rotateX(180deg); 
+	   -moz-transform: rotateX(180deg);	
+	-webkit-transform: rotateX(180deg);	
+}
+
