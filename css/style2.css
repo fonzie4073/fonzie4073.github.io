@@ -16,8 +16,8 @@
 	-webkit-transform: rotateX(180deg);	
 }
 .flip-container, .front, .back {
-	width: 480px;
-	height: 320px;
+	width: 400px;
+	height:400px;
 }
 
 .flipper {
