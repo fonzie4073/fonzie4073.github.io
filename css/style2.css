@@ -54,3 +54,20 @@
 	-webkit-transform: rotateX(180deg);	
 }
 
+
+ .biankuang {
+    height: 126px;
+    width: 15%;
+    margin-left: 14px;
+    margin-top: 20px;
+    background-image: url(头部背景.jpg);
+    background-size: 100% 100%;
+    background-repead: no-repead;
+  }
+ 
+  .biankuang:hover,.biankuang:active {
+    background-image: url(logo2.jpg);
+    background-size: 100% 100%;
+    background-repead: no-repead;
+}
+
