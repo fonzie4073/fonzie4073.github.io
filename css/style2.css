@@ -9,11 +9,11 @@
 }
 
 .flip-container:hover .flipper, .flip-container.hover .flipper {
-	        transform: rotateX(180deg);
-	     -o-transform: rotateX(180deg); 
-	    -ms-transform: rotateX(180deg); 
-	   -moz-transform: rotateX(180deg);	
-	-webkit-transform: rotateX(180deg);	
+	        transform: rotatey(180deg);
+	     -o-transform: rotatey(180deg); 
+	    -ms-transform: rotatey(180deg); 
+	   -moz-transform: rotatey(180deg);	
+	-webkit-transform: rotatey(180deg);	
 }
 .flip-container, .front, .back {
 	width: 300px;
@@ -47,11 +47,11 @@
 }
 
 .back {
-	        transform: rotateX(180deg);
-	     -o-transform: rotateX(180deg); 
-	    -ms-transform: rotateX(180deg); 
-	   -moz-transform: rotateX(180deg);	
-	-webkit-transform: rotateX(180deg);	
+	        transform: rotatey(180deg);
+	     -o-transform: rotatey(180deg); 
+	    -ms-transform: rotatey(180deg); 
+	   -moz-transform: rotatey(180deg);	
+	-webkit-transform: rotatey(180deg);	
 }
 
 
