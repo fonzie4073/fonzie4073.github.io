@@ -1,4 +1,7 @@
- .flip-container2,.front2,.back2,.flipper2{width:300px;height:300px;}
+.front2{
+	 width:300px;
+	 height:300px;
+}
 
 .flip-container2 {
 	        perspective: 1000;
@@ -20,6 +23,7 @@
 	-webkit-transition: 1s; 
 	transform-style: preserve-3d;
 	position: relative;
+	transform-origin:100% 150px/*高度的一半*/
 }
 
 .front2, .back2 {
@@ -32,6 +36,9 @@
 	top: 0;
 	left: 0;
 }
+
+
+
 
 .front2 {
 	z-index: 2;
