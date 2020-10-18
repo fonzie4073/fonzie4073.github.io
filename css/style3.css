@@ -38,9 +38,9 @@
 }
 
 .back2 {
-	        transform: rotateY(180deg);
-	     -o-transform: rotateY(180deg); 
-	    -ms-transform: rotateY(180deg); 
-	   -moz-transform: rotateY(180deg);	
-	-webkit-transform: rotateY(180deg);	
+	        transform: rotateX(180deg);
+	     -o-transform: rotateX(180deg); 
+	    -ms-transform: rotateX(180deg); 
+	   -moz-transform: rotateX(180deg);	
+	-webkit-transform: rotateX(180deg);	
 }
