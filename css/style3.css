@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+.flip-container2 {
+	        perspective: 1000;
+	     -o-perspective: 1000;  
+	    -ms-perspective: 1000; 	
+	   -moz-perspective: 1000;	
+	-webkit-perspective: 1000; 
+}
+.flip-container2, .front2, .back2 {
+	width: 300px;
+	height: 300px;
+}
+
+.flipper2 {
+	        transition: 1s;
+	     -o-transition: 1s; 
+	    -ms-transition: 1s; 
+	   -moz-transition: 1s; 
+	-webkit-transition: 1s; 
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.front2, .back2 {
+	       backface-visibility: hidden;
+	     -o-backface-visibility:hidden; 
+	    -ms-backface-visibility:hidden; 
+	   -moz-backface-visibility:hidden; 
+	-webkit-backface-visibility:hidden;	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front2 {
+	z-index: 2;
+}
+
+.back2 {
+	        transform: rotateY(180deg);
+	     -o-transform: rotateY(180deg); 
+	    -ms-transform: rotateY(180deg); 
+	   -moz-transform: rotateY(180deg);	
+	-webkit-transform: rotateY(180deg);	
+}
