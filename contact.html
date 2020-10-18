@@ -112,16 +112,44 @@ color:white;
 font-family:"Times New Roman";
 font-size:larger
 }
-
-
 </style>
+	
 <p>请把鼠标指针移动到红色的方块元素上，就可以看到过渡效果，过渡速度参数为“ease”，慢速开始逐渐变快，最后慢速结束,同时过渡时也会发生颜色变化。</p>
 
 <div class=yuansu><a href="https://weibo.com/" id="wenzi">点击前往微博页面</a></div>
 
+</br>
+</br>
+</br>
+<p>鼠标移动悬停到图片上，可以看到图片变化。</p>
 
+<style> 
+.hhh
+{
+width:100px;
+height:100px;
+background-image:url(/weibo1.jpg);
+transition:all 4s;
+transition-timing-function:ease;
+/* Firefox 4 */
+-moz-transition:all 4s;
+-moz-transition-timing-function:ease;
+/* Safari and Chrome */
+-webkit-transition:all 4s;
+-webkit-transition-timing-function:ease;
+/* Opera */
+-o-transition:all 4s;
+-o-transition-timing-function:ease;
+}
 
+div.hhh:hover
+{
+width:100px;
+background-image:url(/weixin.jpeg);
+}
+</style>
 
+<div class=hhh></div>
 
 
 
