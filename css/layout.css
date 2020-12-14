@@ -193,6 +193,9 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
+#about a, #resume a:visited  { color: #11ABB0; }
+#about a:hover, #resume a:focus { color: #313131; }
+
 #about h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
@@ -202,9 +205,6 @@ ul#nav li.current a { color: #F06000; }
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
-
-#about a, #resume a:visited  { color: #11ABB0; }
-#about a:hover, #resume a:focus { color: #313131; }
 
 
 #about h2 {
@@ -231,14 +231,6 @@ ul#nav li.current a { color: #F06000; }
 #about .download .button {
    margin-top: 6px;
    background: #444;
-}
-#about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
-}
-#about .download .button i {
-   margin-right: 15px;
-   font-size: 20px;
 }
 
 
