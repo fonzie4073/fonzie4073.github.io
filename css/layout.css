@@ -203,8 +203,9 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 6px;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a, #resume a:visited  { color: #11ABB0; }
+#about a:hover, #resume a:focus { color: #313131; }
+
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
