@@ -240,8 +240,8 @@ ul#nav li.current a { color: #F06000; }
 
 #resume {
    background: #fff;
-   padding-top: 20px;
-   padding-bottom: 72px;
+   padding-top: 86px;
+   padding-bottom: 10px;
    overflow: hidden;
 }
 
@@ -415,7 +415,7 @@ ul#nav li.current a { color: #F06000; }
 
 #portfolio {
    background: #ffffff;
-   padding-top: 96px;
+   padding-top: 86px;
    padding-bottom: 20px;
    overflow: hidden;
 }
@@ -649,7 +649,7 @@ call-to-action .button {
 
 #testimonials {
    background: #ffffff;
-   padding-top: 96px;
+   padding-top: 76px;
    padding-bottom: 20px;
    overflow: hidden;
 }
