@@ -643,34 +643,42 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------
-/* g. Testimonials
+/* g. zhiye &&&&&T estimonials
 /* ------------------------------------------------------------------ */
 
 
-#testimonials {
+#zhiye {
    background: #ffffff;
    padding-top: 76px;
    padding-bottom: 20px;
    overflow: hidden;
 }
 
-#testimonials h1 {
+#zhiye h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#testimonials h1 span {
+#zhiye h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
-#testimonials h3 {
+#zhiye h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#testimonials .text-container {
+#zhiye .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
 }
+
+/* ------------------------------------------------------------------ */
+
+
+
+
+
+
 
 #testimonials .header-col { padding-top: 9px; }
 #testimonials .header-col h1:before {
