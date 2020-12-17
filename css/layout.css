@@ -642,7 +642,38 @@ call-to-action .button {
 	color: #D8D8D8;
 }
 
-/* ------------------------------------------------------------------
+
+
+/* fuli*/
+
+#fuli {
+   background: #ffffff;
+   padding-top: 76px;
+   padding-bottom: 20px;
+   overflow: hidden;
+}
+
+#fuli h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#fuli h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#fuli h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#fuli .text-container {
+   padding-top: 96px;
+   padding-bottom: 66px;
+}
+
+
+
+
 /* g. zhiye &&&&&T estimonials
 /* ------------------------------------------------------------------ */
 
@@ -675,7 +706,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #a5a4a4 url(../images/renkou2.png) no-repeat center center;
+   background: #a5a4a4 url(../images/renkou2.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
