@@ -1098,3 +1098,7 @@ p {
 .main-col h2 {
    font-weight: bold !important;
 }
+
+.bold {
+   font-weight: bold !important;
+}
