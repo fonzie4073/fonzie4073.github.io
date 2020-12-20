@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/renkou2.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -65,7 +65,7 @@ header .banner-text h1 {
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 15px/1.9em 'librebaskerville-regular', serif;
+   font: 17px/1.9em 'librebaskerville-regular', serif;
    color: #ffffff;
    margin: 0 auto;
    width: 70%;
@@ -132,7 +132,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 18px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -1073,3 +1073,28 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+@media only screen and (min-width: 768px) {
+.flex-container {
+   left: 25%;
+   max-width: 70%;
+   min-height: 720px;
+}
+}
+
+p {
+   font-size: 17px !important;
+   text-align: justify !important;
+   line-height: 2.3em !important;
+}
+
+.three.columns h1 {
+   font-size: 24px !important;
+}
+
+.main-col h3 {
+   font-weight: bold !important;
+}
+
+.main-col h2 {
+   font-weight: bold !important;
+}

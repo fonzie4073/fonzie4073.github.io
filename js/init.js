@@ -83,19 +83,13 @@
 		var y = $(window).scrollTop();
       var nav = $('#nav-wrap');
 
-	   if ( (y > h*.20) && (y < h) && ($(window).outerWidth() > 768 ) ) {
-	      nav.fadeOut('fast');
-	   }
-      else {
-         if (y < h*.20) {
-            nav.removeClass('opaque').fadeIn('fast');
-         }
-         else {
-            nav.addClass('opaque').fadeIn('fast');
-         }
+      if (y > h*0.1) {
+         nav.addClass('opaque').fadeIn('fast');
       }
-
-	});
+      else {
+         nav.removeClass('opaque').fadeIn('fast');
+      }
+   });
 
 
 /*----------------------------------------------------*/
@@ -178,11 +172,3 @@
 
 
 });
-
-
-
-
-
-
-
-
