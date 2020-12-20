@@ -1085,6 +1085,7 @@ p {
    font-size: 17px !important;
    text-align: justify !important;
    line-height: 2.3em !important;
+   color: black;
 }
 
 .three.columns h1 {
