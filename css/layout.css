@@ -749,7 +749,7 @@ call-to-action .button {
    text-align: left;
 }
 #testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
+#testimonials blockquote h6 {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
    font-size: 20px;
