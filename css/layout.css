@@ -97,7 +97,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #be8023; }
+header .social li a:hover { color: #62b4b4; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -119,7 +119,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #be8023; }
+header .scrolldown a:hover { color: #62b4b4; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -865,7 +865,7 @@ call-to-action .button {
 #contact .section-head { margin-bottom: 42px; }
 
 #contact a, #contact a:visited  { color: #ffffff; }
-#contact a:hover, #contact a:focus { color: #be8023; }
+#contact a:hover, #contact a:focus { color: #62b4b4; }
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -1079,7 +1079,7 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #be8023; }
+#go-top a:hover { background-color: #62b4b4; }
 
 @media only screen and (min-width: 768px) {
 .flex-container {
